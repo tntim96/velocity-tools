@@ -23,7 +23,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.apache.velocity.tools</groupId>
+    <groupId>com.github.tntim96.velocity.tools</groupId>
     <artifactId>velocity-tools-parent</artifactId>
     <version>3.3-SNAPSHOT</version>
   </parent>

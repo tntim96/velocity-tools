@@ -23,7 +23,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.apache.velocity.tools</groupId>
+    <groupId>com.github.tntim96.velocity.tools</groupId>
     <artifactId>velocity-tools-parent</artifactId>
     <version>3.3-SNAPSHOT</version>
   </parent>
@@ -35,18 +35,18 @@
 
   <dependencies>
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>javax.servlet-api</artifactId>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>javax.servlet.jsp</groupId>
-      <artifactId>javax.servlet.jsp-api</artifactId>
+      <groupId>jakarta.servlet.jsp</groupId>
+      <artifactId>jakarta.servlet.jsp-api</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>javax.el</groupId>
-      <artifactId>javax.el-api</artifactId>
+      <groupId>jakarta.el</groupId>
+      <artifactId>jakarta.el-api</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -54,7 +54,7 @@
       <artifactId>velocity-engine-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.apache.velocity.tools</groupId>
+      <groupId>com.github.tntim96.velocity.tools</groupId>
       <artifactId>velocity-tools-view</artifactId>
       <version>${project.version}</version>
     </dependency>
