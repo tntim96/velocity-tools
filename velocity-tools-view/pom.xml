@@ -23,15 +23,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.github.tntim96.velocity.tools</groupId>
+    <groupId>com.github.tntim96.apache.velocity.tools</groupId>
     <artifactId>velocity-tools-parent</artifactId>
-    <version>3.3-SNAPSHOT</version>
+    <version>3.4.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>velocity-tools-view</artifactId>
 
   <name>Apache Velocity Tools - View tools</name>
-  <description>Tools to be used in a servlet context.</description>
+  <description>Tools to be used in a servlet context. Upgraded to the Jakarta EE platform.</description>
 
   <dependencies>
     <dependency>
@@ -44,7 +44,7 @@
       <artifactId>velocity-engine-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.github.tntim96.velocity.tools</groupId>
+      <groupId>com.github.tntim96.apache.velocity.tools</groupId>
       <artifactId>velocity-tools-generic</artifactId>
       <version>${project.version}</version>
     </dependency>

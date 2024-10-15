@@ -23,16 +23,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.github.tntim96.velocity.tools</groupId>
+    <groupId>com.github.tntim96.apache.velocity.tools</groupId>
     <artifactId>velocity-tools-parent</artifactId>
-    <version>3.3-SNAPSHOT</version>
+    <version>3.4.0.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>velocity-tools-examples</artifactId>
   <packaging>pom</packaging>
 
   <name>Apache Velocity Tools - Examples</name>
-  <description>Examples to show how to use Velocity Tools</description>
+  <description>Examples to show how to use Velocity Tools. Upgraded to the Jakarta EE platform.</description>
 
   <modules>
     <module>velocity-tools-examples-showcase</module>
